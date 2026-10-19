@@ -1,0 +1,59 @@
+{
+  "brand": "ŞAHİN DESIGN",
+  "phone": "905555555555",
+  "heroEyebrow": "KOCAELİ’DEN TÜM TÜRKİYE’YE",
+  "heroTitle": "Eski güzelliklere,\nyeni bir hayat.",
+  "heroText": "Sevdiğiniz mobilyalar değişmesin. Usta ellerde, size ve yaşam alanınıza özel yeniden hayat bulsun.",
+  "services": [
+    {
+      "number": "01",
+      "title": "Koltuk Döşeme",
+      "description": "Seçkin kumaş ve deri seçenekleriyle koltuklarınıza yepyeni bir görünüm kazandırıyoruz.",
+      "icon": "sofa"
+    },
+    {
+      "number": "02",
+      "title": "Özel Üretim",
+      "description": "Ölçünüze, tarzınıza ve yaşam alanınıza göre tamamen size özel mobilyalar tasarlıyoruz.",
+      "icon": "sparkles"
+    },
+    {
+      "number": "03",
+      "title": "Yüz Değişimi",
+      "description": "Formunu koruyup yüzünü yeniliyor; sevdiğiniz mobilyayı ilk günkü heyecanına kavuşturuyoruz.",
+      "icon": "refresh"
+    },
+    {
+      "number": "04",
+      "title": "Deri Uygulama",
+      "description": "Hakiki ve kaliteli suni deri uygulamalarıyla zamansız ve dayanıklı sonuçlar elde ediyoruz.",
+      "icon": "layers"
+    }
+  ],
+  "projects": [
+    {
+      "title": "Zamansız Bir Dokunuş",
+      "category": "Koltuk yenileme",
+      "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=1000&q=85",
+      "label": "01 / 04"
+    },
+    {
+      "title": "Doku ve Konfor",
+      "category": "Özel üretim",
+      "image": "https://images.unsplash.com/photo-1550254478-9214f1d2b6a0?auto=format&fit=crop&w=1000&q=85",
+      "label": "02 / 04"
+    },
+    {
+      "title": "Yeni Bir Başlangıç",
+      "category": "Deri uygulama",
+      "image": "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=1000&q=85",
+      "label": "03 / 04"
+    },
+    {
+      "title": "Her Detayında Ustalık",
+      "category": "Mekân tasarımı",
+      "image": "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1000&q=85",
+      "label": "04 / 04"
+    }
+  ]
+}

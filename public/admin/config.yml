@@ -1,0 +1,77 @@
+# yaml-language-server: $schema=https://unpkg.com/@sveltia/cms/schema/sveltia-cms.json
+
+backend:
+  name: github
+  repo: eneskaan905/sahindesign
+  branch: main
+  base_url: https://YOUR-SVELTIA-AUTH-WORKER.workers.dev
+  auth_methods:
+    - oauth
+
+media_folder: public/media
+public_folder: /media
+media_libraries:
+  all:
+    max_file_size: 10485760
+    slugify_filename: true
+
+collections:
+  - name: site_content
+    label: Site İçeriği
+    icon: home
+    files:
+      - name: homepage
+        label: Ana Sayfa
+        file: src/content.json
+        format: json
+        fields:
+          - name: brand
+            label: Marka adı
+            widget: string
+          - name: phone
+            label: WhatsApp numarası
+            hint: 'Ülke koduyla, yalnızca rakam kullanın. Örnek: 90...'
+            widget: string
+          - name: heroEyebrow
+            label: Üst bilgi
+            widget: string
+          - name: heroTitle
+            label: Ana başlık
+            widget: text
+          - name: heroText
+            label: Açıklama
+            widget: text
+          - name: services
+            label: Hizmetler
+            widget: list
+            summary: '{{fields.title}}'
+            fields:
+              - name: number
+                label: Sıra numarası
+                widget: string
+              - name: title
+                label: Hizmet adı
+                widget: string
+              - name: description
+                label: Açıklama
+                widget: text
+              - name: icon
+                label: Simge
+                widget: hidden
+          - name: projects
+            label: Portföy
+            widget: list
+            summary: '{{fields.title}}'
+            fields:
+              - name: title
+                label: Proje adı
+                widget: string
+              - name: category
+                label: Kategori
+                widget: string
+              - name: image
+                label: Proje görseli
+                widget: image
+              - name: label
+                label: Proje numarası
+                widget: string
