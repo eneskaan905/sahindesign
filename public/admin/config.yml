@@ -4,7 +4,7 @@ backend:
   name: github
   repo: eneskaan905/sahindesign
   branch: main
-  base_url: https://YOUR-SVELTIA-AUTH-WORKER.workers.dev
+  base_url: https://sveltia-cms-auth.eneskaanyildirim37.workers.dev
   auth_methods:
     - oauth
 
